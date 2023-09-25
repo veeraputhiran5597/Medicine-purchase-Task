@@ -1,0 +1,71 @@
+{
+  "Empdata": [
+    {
+      "FullName": "veera",
+      "DateOfbirth": "1997-05-05",
+      "Age": "26",
+      "gender": "Male",
+      "maritalstatus": "single",
+      "Area": "chennai",
+      "Nationality": "indian",
+      "id": 1
+    },
+    {
+      "FullName": "mani",
+      "DateOfbirth": "1998-02-22",
+      "Age": "26",
+      "gender": "Male",
+      "maritalstatus": "single",
+      "Area": "theni",
+      "Nationality": "indian",
+      "id": 2
+    },
+    {
+      "FullName": "rani",
+      "DateOfbirth": "2000-02-02",
+      "Age": "23",
+      "gender": "Female",
+      "maritalstatus": "single",
+      "Area": "madurai",
+      "Nationality": "indian",
+      "id": 3
+    }
+  ],
+  "MadData": [
+    {
+      "id": 1,
+      "Pname": "lisinopril (Zestril)",
+      "GST": 18,
+      "Rate": 120,
+      "Qan": 0
+    },
+    {
+      "id": 2,
+      "Pname": "levothyroxine (Synthroid)",
+      "GST": 18,
+      "Rate": 100,
+      "Qan": 0
+    },
+    {
+      "id": 3,
+      "Pname": "atorvastatin (Lipitor)",
+      "GST": 18,
+      "Rate": 200,
+      "Qan": 0
+    },
+    {
+      "id": 4,
+      "Pname": "metformin (Glucophage)",
+      "GST": 18,
+      "Rate": 320,
+      "Qan": 0
+    },
+    {
+      "id": 5,
+      "Pname": "simvastatin (Zocor)",
+      "GST": 18,
+      "Rate": 520,
+      "Qan": 0
+    }
+  ]
+}

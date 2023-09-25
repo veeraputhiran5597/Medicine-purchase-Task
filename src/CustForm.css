@@ -1,0 +1,259 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.fulltable
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #faf9f6;
+}
+
+.tablestyle
+{
+    width: 100%;
+    padding-top: 40px;
+}
+
+.tabletag
+{
+    display: block;
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px #ccc;
+    border-radius: 10px;
+    white-space: nowrap;
+    width: 100em;
+    max-width: 90%;
+    margin: auto;
+    overflow-x: auto;
+}
+
+.tablethead
+{
+    background-color: #ccc;
+    color: #222;
+}
+
+.tableth
+{
+    width: 18%;
+    padding:0.8rem;
+}
+
+.tabletd
+{
+    padding:0.8rem;
+    border-top: 0.5px solid #ddd;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+
+
+.tabletd
+{
+    width: 18%;
+    text-align: center;
+}
+
+.actionbtnedit
+{
+    background-color: #42a942;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.actionbtndel
+{
+    background-color:#d9534f !important;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.modalcontainer
+{
+    width:100%;
+    display: flex;
+    box-shadow: 0px 10px 10px #ccc;
+
+}
+.formbtns
+{
+    display: flex;
+    justify-content: center;
+    width:100%;
+   
+}
+
+.model
+{
+    border-radius: 5px;
+    padding: 2rem;
+    background-color: white;
+    text-align: center;
+}
+.Formclass
+{
+ display: flex;
+}
+.marital_status_name
+{
+    white-space: nowrap;
+}
+.submitbtn
+{
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    border: none;
+    background-color: blue;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow:0px 5px 5px #ccc;
+    margin-left:20px;
+
+}
+.formgroup
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-left: 12px;
+}
+
+.formgroup input,
+.formgroup select
+{
+    border: 1px solid black;
+    border-radius: 0.3rem;
+    padding:0.3rem;
+    font-size: 1rem;
+}
+
+.formgroup label
+{
+    margin-bottom: 0.2rem;
+}
+
+.purPlace
+{
+    padding:20px;
+    margin-top:30px;
+    box-shadow:10px 0px 5px 5px #ccc;
+}
+
+
+.PC_tablestyle
+{
+width: 100%;
+padding-top:40px;
+}
+.PC_tabletag
+{
+    display: block;
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px #ccc;
+    border-radius: 10px;
+    white-space: nowrap;
+    width: 100em;
+    max-width:40%;
+    margin: auto;
+    overflow-x: auto;
+}
+.PC_tableth
+{
+    width: 22%;
+    padding:0.8rem;
+    text-align: center;
+}
+.PC_tabletd
+{
+    width: 10%;
+    text-align: center;
+    border-top: 0.5px solid #ddd;
+    padding:0.5rem;
+}
+
+.Ad_tablestyle
+{
+display: flex;
+padding-top:40px;
+width:100%;
+
+}
+.Ad_tabletag
+{
+    overflow: hidden;
+    table-layout: auto;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px #ccc;
+    border-radius: 10px;
+    white-space: nowrap;
+    margin: auto;
+    overflow-x: auto;
+}
+.Ad_tableth
+{
+    width: 50%;
+    padding:0.8rem;
+    text-align: center;
+}
+.Ad_tabletd
+{
+    width: 10%;
+    text-align: center;
+    border-top: 0.5px solid #ddd;
+    padding:0.5rem;
+}
+
+.Rt_tabletag
+{
+    table-layout: auto;
+    border-collapse: collapse;
+    box-shadow: 0px 10px 10px #ccc;
+    border-radius: 10px;
+    white-space: nowrap;
+    width:30%;
+    margin: auto;
+    overflow-x: auto;
+}
+.Rt_tableth
+{
+    width: 50%;
+    padding:0.8rem;
+    text-align: center; 
+}
+.Tablebody
+{
+    width:65%;
+}
+.netablebody
+{
+    width:35%;
+}
+.Rt_tablethead
+{
+    background-color: #ccc;
+    color: #222;
+    display: flex;
+
+}
